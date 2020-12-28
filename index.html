@@ -12,6 +12,7 @@
 
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/prefixfree.jquery.js"></script>
+  <script src="js/jquery.parallax-scroll.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
@@ -19,7 +20,7 @@
   <script src="js/main.js"></script> 
  </head>
  <body>
- <header>
+  <header>
     <h2>
       <span>Welcome</span>
        Yoon WooYoung<br>
@@ -36,7 +37,7 @@
      </ul>
   </div>
 </nav> 
-     
+<section id="half_first"></section>
  <section id="sec01">
    <h2 id="port">Portfolio</h2>
    <!-- <div class="bg01"></div> -->
@@ -131,7 +132,7 @@
    </div> <!-- // #tablet_wrap END -->
    <img src="site-img/bg01.png" alt="" class="wow sec01_bg">
  </section>
- 
+ <section id="half_second"></section>
  <section id="sec02">
   <h2 id="ps">Photoshop</h2>
   
@@ -244,23 +245,27 @@
     </div>
    </div> <!-- // #tablet_wrap END -->
  </section>
- 
+ <section id="half_last"></section>
  <section id="sec03">
    <h2 id="cont">CONTACT</h2>
-   <img src="site-img/cont_bg.png" alt="" class="wow cont_bg">
-   <div id="cont_wrap" class="wow">
-    <div class="my_info">
-      <p>Yoon Woo Young</p>
-      <p>Phone : 010 - 1234 -5678</p>
-      <p>Email : my_email@mail.com</p>
-    </div>
-    <div class="cont_area">
-      <input type="text" placeholder="Email">
-      <textarea name="Message" placeholder="Message" id="" cols="10" rows="10"></textarea>
-    </div>
+   
+   <div id="mac_desk_wrap">
+      <img src="site-img/mac_desk.png" alt="" id="mac_desk" class="wow animate__animated animate__zoomIn">
+      <img src="site-img/cont_bg.png" alt="" class="wow cont_bg">
+      <div id="cont_wrap" class="wow">
+        <div class="my_info">
+          <p>Yoon Woo Young</p>
+          <p>Phone : 010 - 1234 -5678</p>
+          <p>Email : my_email@mail.com</p>
+        </div>
+        <div class="cont_area">
+          <input type="text" placeholder="Email">
+          <textarea name="Message" placeholder="Message" id="" cols="10" rows="10"></textarea>
+        </div>
+      </div>
    </div>
    
-   <img src="site-img/mac_desk.png" alt="" id="mac_desk" class="wow animate__animated animate__zoomIn">
+   
  </section>
      
  <!-- <footer>

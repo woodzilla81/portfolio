@@ -76,4 +76,5 @@ btn1.click(function(){
   $('.thumb').isotope({ filter : '.all' });
 });
 
+
 });      
